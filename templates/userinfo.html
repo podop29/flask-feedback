@@ -1,0 +1,14 @@
+{%extends 'base.html'%}
+{%block title%}-userinfo-{%endblock%}
+
+{%block content%}
+<li>FirstName: {{user.first_name}}</li>
+<li>LastName: {{user.last_name}}</li>
+<li>Email: {{user.email}}</li>
+<form action="/logout">
+<button>LogOut</button>
+</form>
+
+
+
+{%endblock%}
